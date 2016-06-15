@@ -1,5 +1,12 @@
+<<<<<<< HEAD
   <li class="list-group-item "  ng-class-even="list-group-item-info" ng-class-odd="list-group-item-warning" ng-repeat="phone in phones | searchPhones:query:queryselector | orderBy: 'price || 0' : direccion ">
     <span ng-class="{enOferta : phone.enOferta}">{{phone.name}}</span>
     <p>{{phone.snippet}}</p>
     <p>{{phone.price ||0 | currency}}</p>
+=======
+  <li class="list-group-item "  ng-class-even="list-group-item-info" ng-class-odd="list-group-item-warning" ng-repeat="phone in phones | searchPhones:query:queryselector | orderBy: 'price || 0' : direccion ">
+    <span ng-class="{enOferta : phone.enOferta}">{{phone.name}}</span>
+    <p>{{phone.snippet}}</p>
+    <p>{{phone.price ||0 | currency}}</p>
+>>>>>>> 70465adc07f8abda15b75f39434d74f1a934f4ac
   </li>
